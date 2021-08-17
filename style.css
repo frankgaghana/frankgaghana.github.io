@@ -105,7 +105,7 @@ label #cancel {
 }
 
 svg {
-  margin-top: 148px;
+  margin-top: 146px;
 }
 
 .display-4 {
@@ -135,8 +135,6 @@ p {
 
 .about a:hover {
   color: #353535;
-  padding-bottom: 5px;
-  transition: 0.3s;
 }
 
 /* AKHIR CSS ABOUT.HTML */
