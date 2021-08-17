@@ -105,6 +105,9 @@ label #cancel {
   height: 100%;
 }
 
+svg {
+  width: 100%;
+}
 .display-4 {
   color: white;
 }
