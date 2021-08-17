@@ -96,10 +96,6 @@ label #cancel {
   left: 250px;
 }
 
-#check:checked ~ section {
-  margin-left: 300px;
-}
-
 section {
   background: url(images/bg.png) no-repeat;
   background-position: center;
