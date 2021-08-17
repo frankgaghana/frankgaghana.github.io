@@ -1,13 +1,9 @@
+/* CSS INDEX.HTML */
 * {
   margin: 0;
   padding: 0%;
   list-style: none;
   text-decoration: none;
-}
-
-* a:hover {
-  text-decoration: none;
-  color: #b6923b;
 }
 
 * a {
@@ -30,16 +26,17 @@
   height: 100%;
   background: #1f1f1f;
   transition: all 0.6s ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sidebar ul a {
   display: block;
   line-height: 50px;
   font-size: 17px;
-  color: #b6923b;
+  color: #dd9b1c;
   padding-left: 10px;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(161, 130, 60, 1);
+  border-bottom: 1px solid rgba(87, 128, 137, 1);
   transition: 0.4s;
 }
 
@@ -54,7 +51,7 @@ ul li a:hover {
 .footer {
   margin-top: 80px;
   margin-left: 35px;
-  color: #b6923b;
+  color: #dd9b1c;
 }
 
 #check {
@@ -70,20 +67,22 @@ label #cancel {
 }
 
 label #btn {
+  position: fixed;
   left: 30px;
   top: 25px;
   font-size: 25px;
-  color: #b6923b;
+  color: #dd9b1c;
   padding: 6px 12px;
   transition: all 0.6s;
 }
 
 label #cancel {
+  position: fixed;
   z-index: 1111;
   left: -250px;
   top: 17px;
   font-size: 25px;
-  color: #b6923b;
+  color: #dd9b1c;
   padding: 4px 9px;
   transition: all 0.6s ease;
 }
@@ -96,11 +95,73 @@ label #cancel {
   left: 250px;
 }
 
-section {
-  background: url(images/bg.jpg) no-repeat;
+.home {
+  color: whitesmoke;
+  font-size: 50px;
+  margin-top: 260px;
+  box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+  font-family: cursive;
+}
+
+body {
+  background: url(images/coffee.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
   transition: all 0.6s;
   -webkit-background-size: 100% 100%;
+}
+/* AKHIR CSS INDEX.HTML */
+
+/* CSS ABOUT.HTML */
+
+.about {
+  background-color: #101d23;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jumbotron {
+  padding: 2rem 1 rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
+.row {
+}
+
+.me {
+  margin-top: 50px;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 0 20px 3px rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.foto {
+  height: 250px;
+  width: 200px;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 20px 20px 0px -5px rgb(0, 0, 0);
+}
+
+.contact {
+  color: white;
+  border-bottom: 2px solid #dd9b1c;
+}
+
+a:hover {
+  color: #dd9b1c;
+  padding-bottom: 3px;
+  transition: 0.6s;
 }
