@@ -1,54 +1,37 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Franky Gaghana</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="icon" type="image/png" href="photo/icon/home.png">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fa/css/all.css">
+    <title>Home</title>
 </head>
-<body class="background">
-<SCRIPT LANGUAGE ="JavaScript">
-window.alert("Selamat Datang Di Web Saya");
-</SCRIPT>
-<nav class="navbar navbar-expand-lg navbar-light">
-  	<a class="navbar-brand" href="index.html"><font color="white"> Frank </a> </font>
- 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation-white">
-    <span class="icon navbar-toggler-icon"></span>
-  	</button>
-  		<div class="collapse navbar-collapse"" id="navbarSupportedContent">
-  			<ul class="navbar-nav mr-auto">
-      			<li class="nav-item active">
-        			<a class="nav-link" href="pendidikan.html"><font color="white"> Education</a></font>
-      			</li>
-      			<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="white"> Achivement </a></font>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="smp.html">SMP</a>
-                  <a class="dropdown-item" href="smk.html">SMK</a>
-                  <a class="dropdown-item" href="pt.html">Perguruan Tinggi</a>
-                </div>
-            </li>
-      			<li class="nav-item active">
-        			<a class="nav-link" href="tentang.html"><font color="white"> About</a></font>
-      			</li>
-  			</ul>
-  		</div>
-</nav>
-  <table border="3px" bordercolor="#ffffff" class="table">
-    <tr>
-      <td>
-        <p align="center" style="font-size:80px"><font color="#ffffff">INI DIA</p></font>
-        <b><p align="center" style="font-size:20px"><font color="#ffffff">Life must have a purpose.</font></p></b> 
-	<b><p align="center" style="font-size:20px"><font color="#ffffff">Learn from mistakes to achieve goals!</font></p></b>
-      </td>
-    </tr>
-  </table>
-<div class="footer"><br>
-  <p align="center" class="text-copy"> &copy; Frank Gaghana </p>
-</div>
-<script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
-<script src="bootstrap/js/popper.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<body>
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+  </label>
+  <div class="sidebar">
+    <header>
+      <a href=""><img class="img rounded-circle" src="images/foto1.jpg"></a>
+    </header>
+    <div class="container">
+      <ul>
+        <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+        <li><a href=""><i class="fas fa-medal"></i>Achievement</a></li>
+        <li><a href=""><i class="fas fa-book-open"></i>Education</a></li>
+        <li><a href=""><i class="fas fa-user"></i>About Me</a></li>
+        <li><a href=""><i class="fas fa-address-book"></i>Contact</a></li>
+      </ul>
+      <div class="footer">
+        <p>Copyright &copy;2021 All rights reserved | by Frank</p>
+      </div>
+    </div>
+  </div>
+  <section></section>
 </body>
 </html>
