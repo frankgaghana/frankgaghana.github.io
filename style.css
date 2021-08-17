@@ -100,8 +100,10 @@ label #cancel {
 }
 
 .jumbotron {
+  padding-top: 52px;
   background-color: #353535;
 }
+
 .display-4 {
   color: white;
 }
@@ -138,7 +140,7 @@ p {
 /* CSS ACHIEVEMENT.HTML*/
 
 #check:checked ~ section {
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 section {
@@ -147,6 +149,15 @@ section {
 
 .card {
   background-color: #1f1f1f;
+}
+
+.card-dasar {
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px 3px #1f1f1f;
+}
+
+.card {
+  box-shadow: 0px 0px 5px 3px #1f1f1f;
 }
 
 /* AKHIR CSS ACHIEVEMENT.HTML*/
