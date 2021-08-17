@@ -100,13 +100,7 @@ label #cancel {
 }
 
 .jumbotron {
-  padding-top: 50px;
   background-color: #353535;
-  height: 100%;
-}
-
-svg {
-  width: 100%;
 }
 .display-4 {
   color: white;
