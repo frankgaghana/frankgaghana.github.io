@@ -7,6 +7,15 @@ body {
   box-shadow: none;
 }
 
+a {
+  color: #8c653e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 #jumbotron {
   background-color: transparent;
   padding-top: 290px;
