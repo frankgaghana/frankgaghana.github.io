@@ -7,15 +7,6 @@ body {
   box-shadow: none;
 }
 
-a {
-  color: #8c653e;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-}
-
 #jumbotron {
   background-color: transparent;
   padding-top: 290px;
@@ -26,8 +17,28 @@ a:hover {
   background-color: white;
 }
 
+#profile a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+#profile a:hover {
+  color: #8c653e;
+  border-bottom: 1px solid #8c653e;
+}
+
 #experiences {
   background-color: #e8e0d8;
+}
+
+#experiences a {
+  color: #8c653e;
+  text-decoration: none;
+}
+
+#experiences a:hover {
+  color: black;
 }
 
 #contact {
@@ -36,8 +47,25 @@ a:hover {
 
 #contact a {
   color: white;
+  text-decoration: none;
 }
 
 #contact a:hover {
   color: black;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 200px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 200px;
+}
+.gmap_iframe {
+  height: 200px !important;
 }
