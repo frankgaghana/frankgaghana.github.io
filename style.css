@@ -29,3 +29,15 @@ a:hover {
 #experiences {
   background-color: #e8e0d8;
 }
+
+#contact {
+  background-color: #49423c;
+}
+
+#contact a {
+  color: white;
+}
+
+#contact a:hover {
+  color: black;
+}
