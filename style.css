@@ -1,73 +1,22 @@
-/* CSS HOME */
-a {
-  color: #8c653e;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-}
-
-.jumbotron {
-  background-image: url(images/bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+body {
+  background: url(images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  padding-top: 16rem;
-  padding-bottom: 240px;
 }
 
-.nama {
-  font-size: 50px;
-  color: white;
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
-.garis {
-  width: 650px;
+#jumbotron {
+  background-color: transparent;
+  padding-top: 290px;
+  padding-bottom: 295px;
+}
+
+#profile {
   background-color: white;
-  border-bottom: 2px solid white;
 }
-
-.lead {
-  font-size: 30px;
-  color: white;
-}
-/* AKHIR CSS HOME */
-
-/* CSS EXPERIENCES */
 
 #experiences {
   background-color: #e8e0d8;
 }
-
-.btn {
-  border: 1px solid #8c653e;
-  color: #8c653e;
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-
-.btn:hover {
-  background-color: #8c653e;
-  color: white;
-  border: 1px solid #8c653e;
-}
-/* AKHIR CSS EXPERIENCES */
-
-/* CSS CONTACT */
-
-#contact {
-  background-color: #49423c;
-}
-
-#contact a {
-  color: white;
-}
-
-#contact a:hover {
-  color: black;
-}
-
-/* AKHIR CSS CONTACT */
