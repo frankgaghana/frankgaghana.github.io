@@ -9,8 +9,8 @@ body {
 
 #jumbotron {
   background-color: transparent;
-  padding-top: 290px;
-  padding-bottom: 295px;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }
 
 #profile {
